@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../IMG/bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Roboto;
+}
+
+.contenedor-form {
+    float: left;
+    width: 415px;
+    background: rgb(169, 204, 190);
+    margin: 50px auto;
+    border-radius: 10px;
+    color: #fff;
+    position: relative;
+    padding: 32px;
+    margin-top: 250px;
+    margin-left: 72px;
+    border: 2px solid #90a0a0;
+}
+
+.contenedor-form h2 {
+    margin: 0 0 28px 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+}
+.contenedor-form h1 {
+    margin: 0 0 28px 0;
+    font-size: 25px;
+    font-weight: 450;
+    line-height: 1;
+}
+.contenedor-form input[type="text"],
+.contenedor-form input[type="password"]{
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 1px;
+    border-bottom: 4px solid #90a0a0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight:normal;
+    transition: all .5s ease;
+}
+
+.contenedor-form input[type="text"]:focus,
+.contenedor-form input[type="password"]:focus{
+    border-bottom: 4px solid #056662;
+}
+
+.contenedor-form input[type="button"] {
+    background: rgb(7, 145, 140);
+    color: #FFF;
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+    font-size: 17px;
+    font-weight: normal;
+    font-family: Roboto;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+
+.contenedor-form input[type="button"]:hover {
+    background: rgb(3, 76, 73);
+}
+
+.contenedor-form .reset-password {
+    background: rgba(0, 117, 217, .7);
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.contenedor-form .reset-password a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.contenedor-form .formulario {
+    display: none;
+    padding: 32px;
+}
+
+.contenedor-form .formulario:nth-child(2) {
+    display: block;
+}
